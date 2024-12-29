@@ -1,0 +1,17 @@
+type: executable
+name: "cli"
+
+artifact-name: bitflags
+
+deps:
+  - lib
+
+actions:
+  - install:
+      on: deploy
+      to:
+        - ${re-dev-deploy-path}
+
+
+cxx-link-deps:
+  - Shell32.lib

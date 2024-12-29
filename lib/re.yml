@@ -1,0 +1,8 @@
+type: static-library
+name: "lib"
+
+deps:
+  - github:zwalloc/ulib ^1.0.0
+  - github:zwalloc/ulib-fmt ^1.0.0
+  - github:zwalloc/ulib-yaml ^1.0.0
+  - github:osdeverr/futile ^1.0.0
